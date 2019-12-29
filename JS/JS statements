@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h3>JavaScript Statements </h3>
+
+    <p id=" paragraph1"> I 'm paragraph1</p>
+  
+    <p id=" paragraph2"> I' m paragraph2 </p>
+    
+    <p>
+         
+           <button type="button" onclick="myFunction()">
+            Click here
+           </button>
+
+    </p>
+
+
+    <script>
+ 
+    function myFunction( ) {
+        
+        document.getElementById("paragraph1").innerHTML = " it is ready";
+        document.getElementById("paragraph2").innerHTML = " it is ready , second time";
+ 
+
+    }
+    
+
+
+    </script>
+</body>
+</html>
